@@ -139,6 +139,7 @@ function beatmapParser() {
 
     var hitObject = {
       startTime:  parseInt(members[2]),
+      endTime: parseInt(members[5]),
       newCombo:   ((objectType & 4) == 4),
       soundTypes: [],
       position: [
